@@ -1,0 +1,10 @@
+:root { --red: #e8202a; --yel: #ffd23f; --ink: #111; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 18px/1.6 system-ui, sans-serif; background: #fff; color: var(--ink); }
+header { background: var(--red); padding: 48px 16px; text-align: center; }
+h1 { margin: 0; font-size: 56px; color: #fff; letter-spacing: 1px; text-shadow: 4px 4px 0 var(--ink); }
+h1 span { color: var(--yel); }
+header p { margin: 8px 0 0; color: #fff; font-weight: 600; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px; }
+a { color: var(--red); }
+footer { text-align: center; padding: 24px 16px; font-size: 14px; color: #666; }
